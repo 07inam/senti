@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Load the model from the pickle file
-with open(r"C:\Users\91812\Desktop\Test jupyter\lr.pickle", 'rb') as model_file:
+with open("lr.pickle", 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Define the Streamlit app
