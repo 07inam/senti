@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Load the model from the pickle file
-with open("classifier1.pickle", 'rb') as model_file:
+with open("classifier2.pickle", 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Define the Streamlit app
