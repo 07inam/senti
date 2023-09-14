@@ -11,7 +11,7 @@
     "import streamlit as st\n",
     "\n",
     "# Load the model from the pickle file\n",
-    "with open(r\"C:\\Users\\91812\\Desktop\\Test jupyter\\lr.pickle\", 'rb') as model_file:\n",
+    "with open("classifier1.pickle", 'rb') as model_file:\n",
     "    model = pickle.load(model_file)\n",
     "\n",
     "# Define the Streamlit app\n",
